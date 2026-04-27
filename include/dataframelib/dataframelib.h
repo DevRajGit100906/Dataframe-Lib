@@ -5,7 +5,6 @@
 #include "eager_dataframe.h"
 #include "lazy_dataframe.h"
 #include "query_optimizer.h"
-
 #ifndef ARROW_THROW_NOT_OK
 #include <stdexcept>
 #define ARROW_THROW_NOT_OK(expr)                                          \
